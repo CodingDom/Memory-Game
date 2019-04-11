@@ -18,6 +18,7 @@ class App extends Component {
   checkAnswer = id => {
     if (this.state.alreadyChosen.indexOf(id) !== -1) {
       this.setState({ 
+        alreadyChosen: [],
         result: "You answered incorrectly!",
         score: 0 
       });
