@@ -17,16 +17,12 @@
   {
     "id": 4,
     "name": "Mufasa",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG69.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG69.png"
   },
   {
     "id": 5,
     "name": "Simba",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG90.png"
   },
   {
     "id": 6,
@@ -60,7 +56,7 @@
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png"
+    "name": "Kovu",
+    "image": "http://worldartsme.com/images/kovu-cub-clipart-1.jpg"
   }
 ]
