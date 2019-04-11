@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Puumba",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG89.png"
+  },
+  {
+    "id": 2,
+    "name": "Timon",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG73.png"
+  },
+  {
+    "id": 3,
+    "name": "Scar",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG97.png"
+  },
+  {
+    "id": 4,
+    "name": "Mufasa",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG69.png",
+    "occupation": "Boy Genius",
+    "location": "A Secret Laboratory"
+  },
+  {
+    "id": 5,
+    "name": "Simba",
+    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
+    "occupation": "A Cowardly Dog",
+    "location": "Nowhere, Kansas"
+  },
+  {
+    "id": 6,
+    "name": "Simba Birth",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG50.png"
+  },
+  {
+    "id": 7,
+    "name": "Nala",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG47.png"
+  },
+  {
+    "id": 8,
+    "name": "Simba & Nala",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG24.png"
+  },
+  {
+    "id": 9,
+    "name": "Zazu",
+    "image": "https://ellenwoodbury.com/gwfa-ew/wp-content/uploads/1994/06/disney-film-the-lion-king-1994-zazu-255x233.png"
+  },
+  {
+    "id": 10,
+    "name": "Shenzi",
+    "image": "https://i1.wp.com/img00.deviantart.net/8455/i/2017/058/7/b/janja_by_kitchiki-db0mavc.png"
+  },
+  {
+    "id": 11,
+    "name": "Baby Nala",
+    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG14.png"
+  },
+  {
+    "id": 12,
+    "name": "Ickis",
+    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png"
+  }
+]
