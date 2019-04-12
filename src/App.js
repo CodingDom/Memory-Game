@@ -33,25 +33,43 @@ class App extends Component {
   };
 
   render() {
+    const characterList = this.state.characters.sort(() => (.5 - Math.random())).map((character,index) => (
+      <CharacterCard
+      checkAnswer={this.checkAnswer}
+      id={character.id}
+      key={character.id}
+      name={character.name}
+      image={character.image}
+    />
+    ));
     return (
-      <Wrapper>
-        <div className="container">
-          <div className="row navbar-background">
+        <div className="container-fluid">
+          {/* <div className="row navbar-background">
             <NavBar result={this.state.score === 0 ? defaultMsg : this.state.result} score={this.state.score} />
-          </div>
+          </div> */}
           <div className="row">
-            {this.state.characters.sort(() => (.5 - Math.random())).map(character => (
-              <CharacterCard
-              checkAnswer={this.checkAnswer}
-              id={character.id}
-              key={character.id}
-              name={character.name}
-              image={character.image}
-            />
-            ))}
+            <div className="col-3">
+
+            </div>
+            <div className="col-9" style={{ paddingRight:"35px" }}>
+              <div className="row">
+                <div className="card-deck">
+                  {characterList.slice(0,4)}
+                </div>
+              </div>
+              <div className="row">
+                <div className="card-deck">
+                  {characterList.slice(4,8)}
+                </div>
+              </div>
+              <div className="row">
+                <div className="card-deck">
+                  {characterList.slice(8,12)}
+                </div>
+              </div>
+            </div>
           </div>  
         </div>
-      </Wrapper>
     );
   };  
 }

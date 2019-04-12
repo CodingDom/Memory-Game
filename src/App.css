@@ -1,3 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("http://s-tlk.org/news/tlg_background1.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
 .title {
   width: 100%;
   text-align: center;

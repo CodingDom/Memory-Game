@@ -3,12 +3,10 @@ import "./style.css";
 
 function CharacterCard(props) {
   return (
-    <div className="col-3">
     <div className="card" id={props.id} onClick={() => props.checkAnswer(props.id)}>
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
-    </div>
     </div>
   );
 }
