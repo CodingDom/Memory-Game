@@ -11,6 +11,15 @@ body {
   overflow: hidden;
 }
 
+#menu {
+  height: 100%;
+  width: 100%;
+}
+
+#menu p {
+  margin: 0;
+}
+
 .title {
   width: 100%;
   text-align: center;
