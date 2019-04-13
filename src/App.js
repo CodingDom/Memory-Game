@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import CharacterCard from "./components/CharacterCard";
-import NavBar from "./components/NavBar";
 import Menu from "./components/Menu";
 import characters from "./characters.json";
 import "./App.css";
