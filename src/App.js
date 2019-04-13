@@ -83,8 +83,8 @@ class App extends Component {
           <div className="row">
             <div className="col-3">
               <div id="menu">
-                <img id="logo" src={`${process.env.PUBLIC_URL}/images/sign.png`} alt="logo" style={{ width:"110%", position:"absolute", left:"-5%", top:"0" }} />
-                <img src={`${process.env.PUBLIC_URL}/images/sign2.png`} alt="menu" style={{height: "100%", width: "100%"}} />
+                <img id="logo" src="./images/sign.png" alt="logo" style={{ width:"110%", position:"absolute", left:"-5%", top:"0" }} />
+                <img src="./images/sign2.png" alt="menu" style={{height: "100%", width: "100%"}} />
                 <div id="logo-text" style={{width: "100%", height: this.state.logoHeight, position: "absolute", top: "0", left: "0", fontSize: "20px", textAlign:"center", paddingTop:"12%", color:"white"}}>
                   <h1 style={{ fontSize: "2.5em" }}>Lion King</h1>
                   <h3 style={{ fontSize: "1.75em" }}>Memory Game</h3>
