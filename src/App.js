@@ -5,24 +5,15 @@ import Menu from "./components/Menu";
 import characters from "./characters.json";
 import "./App.css";
 
-const defaultMsg = "Click on an image to begin!";
+const defaultMsg = "Click on a character to begin!";
 
-const menuStyle = { 
-  width:"100%", 
-  position:"absolute", 
-  bottom: "10%", 
-  left: "50%", 
-  transform: "translate(-50%, 0)", 
-  textAlign:"center", 
-  fontSize:"32px", 
-  color: "#5a4827" 
-}
+let component;
 
 class App extends Component {
   state = {
     characters,
     alreadyChosen: [],
-    result: "",
+    result: defaultMsg,
     score: 0,
     highScore: 0,
     height: 0,
@@ -30,6 +21,7 @@ class App extends Component {
   };
 
   componentDidMount() {
+    component = this;
     window.onresize = () => this.rescale();
     this.rescale();
   }
@@ -49,18 +41,15 @@ class App extends Component {
         highScore: (this.state.score + 1 >= this.state.highScore ? this.state.score + 1 : this.state.highScore)
       });
     }
-    console.log(this.state.result);
   };
 
   rescale() {
     const logo = document.getElementById("logo");
 
-    this.setState({
+    component.setState({
       height: (logo.parentElement.offsetHeight - logo.offsetHeight)+"px",
       logoHeight: logo.offsetHeight + "px"
     });
-
-    console.log(this.state.height);
   };
 
   render() {
@@ -74,31 +63,12 @@ class App extends Component {
     />
     ));
     const currColor = this.state.result === "Correct!" ? "green" : "red";
-    const color = {color: currColor};
+    const color = this.state.highScore > 0 ? {color: currColor} : {};
     return (
         <div className="container-fluid">
           <div className="row">
-            {/* <NavBar result={this.state.score === 0 ? defaultMsg : this.state.result} score={this.state.score} /> */}
-          </div>
-          <div className="row">
             <div className="col-3">
-              <div id="menu">
-                <img id="logo" src="./images/sign.png" alt="logo" style={{ width:"110%", position:"absolute", left:"-5%", top:"0" }} />
-                <img src="./images/sign2.png" alt="menu" style={{height: "100%", width: "100%"}} />
-                <div id="logo-text" style={{width: "100%", height: this.state.logoHeight, position: "absolute", top: "0", left: "0", fontSize: "20px", textAlign:"center", paddingTop:"12%", color:"white"}}>
-                  <h1 style={{ fontSize: "2.5em" }}>Lion King</h1>
-                  <h3 style={{ fontSize: "1.75em" }}>Memory Game</h3>
-                </div>
-                <div id="menu-text" style={{...menuStyle, ...{height: this.state.height}}}>
-                  <br />
-                  <p style={color}>{this.state.result}</p>
-                  <br />
-                  <p>Score</p>
-                  <p>{this.state.score}</p>
-                  <p>High Score</p>
-                  <p>{this.state.highScore}</p>
-                </div>
-              </div>
+              <Menu rescale={this.rescale} height={this.state.Height} logo={this.state.logoHeight} score={this.state.score} highScore={this.state.highScore} result={this.state.result} color={color} />
             </div>
             <div className="col-9" style={{ paddingRight:"35px" }}>
               <div className="row">
