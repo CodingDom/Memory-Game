@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Memory-Game/static/js/runtime~main.81d8dd5c.js"
   },
   {
-    "revision": "68da049a2b333fca223e",
-    "url": "/Memory-Game/static/js/main.8e113e56.chunk.js"
+    "revision": "99bbc1fe50b8f04e2473",
+    "url": "/Memory-Game/static/js/main.01840dbe.chunk.js"
   },
   {
     "revision": "ed67e21e0fbb680b5f8f",
     "url": "/Memory-Game/static/js/2.abafc83a.chunk.js"
   },
   {
-    "revision": "68da049a2b333fca223e",
-    "url": "/Memory-Game/static/css/main.09f57636.chunk.css"
+    "revision": "99bbc1fe50b8f04e2473",
+    "url": "/Memory-Game/static/css/main.849c49a6.chunk.css"
   },
   {
-    "revision": "915bd70c15dae1e872f312c2420a23c5",
+    "revision": "be98aefdc8e3dd3b0cbfb16b990924bd",
     "url": "/Memory-Game/index.html"
   }
 ];
