@@ -1,3 +1,8 @@
+#menu {
+  max-width: 370px;
+  position: relative;
+}
+
 #menu-text {
   width:"100%"; 
   position:"absolute"; 
