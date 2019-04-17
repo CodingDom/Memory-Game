@@ -2,7 +2,7 @@
 
 <i><b>Lion King Memory</b></i> is a React.js memory game based on star Lion King characters. The user must select every character without choosing a character that has been previously selected. For every character selected, the arrangement is randomized, forcing the user to form some type of memorizing technique in order to complete the game successfully.
 
-##Preview
+## Preview
 
 <img src="https://i.imgur.com/u5bSRCy.png" width="100%">
 
