@@ -5,7 +5,6 @@ html, body {
 }
 
 body {
-  background-image: url("http://s-tlk.org/news/tlg_background1.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;

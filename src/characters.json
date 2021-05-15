@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Puumba",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG89.png"
+    "name": "Pumbaa",
+    "image": "./assets/images/characters/pumbaa.png"
   },
   {
     "id": 2,
     "name": "Timon",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG73.png"
+    "image": "./assets/images/characters/timon.png"
   },
   {
     "id": 3,
     "name": "Scar",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG97.png"
+    "image": "./assets/images/characters/scar.png"
   },
   {
     "id": 4,
     "name": "Mufasa",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG69.png"
+    "image": "./assets/images/characters/mufasa.png"
   },
   {
     "id": 5,
     "name": "Simba",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG90.png"
+    "image": "./assets/images/characters/simba-cub.png"
   },
   {
     "id": 6,
     "name": "Simba Birth",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG50.png"
+    "image": "./assets/images/characters/simba-birth.png"
   },
   {
     "id": 7,
     "name": "Nala",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG47.png"
+    "image": "./assets/images/characters/nala.png"
   },
   {
     "id": 8,
     "name": "Simba & Nala",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG24.png"
+    "image": "./assets/images/characters/simba_nala.png"
   },
   {
     "id": 9,
     "name": "Zazu",
-    "image": "https://ellenwoodbury.com/gwfa-ew/wp-content/uploads/1994/06/disney-film-the-lion-king-1994-zazu-255x233.png"
+    "image": "./assets/images/characters/zazu.png"
   },
   {
     "id": 10,
     "name": "Shenzi",
-    "image": "https://i1.wp.com/img00.deviantart.net/8455/i/2017/058/7/b/janja_by_kitchiki-db0mavc.png"
+    "image": "./assets/images/characters/shenzi.png"
   },
   {
     "id": 11,
     "name": "Baby Nala",
-    "image": "http://pngimg.com/uploads/lion_king/lion_king_PNG14.png"
+    "image": "./assets/images/characters/nala-cub.png"
   },
   {
     "id": 12,
     "name": "Kovu",
-    "image": "http://worldartsme.com/images/kovu-cub-clipart-1.jpg"
+    "image": "./assets/images/characters/kovu.png"
   }
 ]
