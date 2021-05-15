@@ -21,8 +21,8 @@ class App extends Component {
 
   componentDidMount() {
     component = this;
-    window.onresize = () => this.rescale();
-    this.rescale();
+    // window.onresize = () => this.rescale();
+    // this.rescale();
   }
 
   checkAnswer = id => {
@@ -43,12 +43,12 @@ class App extends Component {
   };
 
   rescale() {
-    const logo = document.getElementById("logo");
+    // const logo = document.getElementById("logo");
 
-    component.setState({
-      height: (logo.parentElement.offsetHeight - logo.offsetHeight)+"px",
-      logoHeight: logo.offsetHeight + "px"
-    });
+    // component.setState({
+    //   height: (logo.parentElement.offsetHeight - logo.offsetHeight)+"px",
+    //   logoHeight: logo.offsetHeight + "px"
+    // });
   };
 
   render() {
@@ -66,24 +66,12 @@ class App extends Component {
     return (
         <div className="container-fluid">
           <div className="row">
-            <div className="col-3">
+            <div className="col-12 col-sm-3">
               <Menu rescale={this.rescale} height={this.state.Height} logo={this.state.logoHeight} score={this.state.score} highScore={this.state.highScore} result={this.state.result} color={color} />
             </div>
-            <div className="col-9" style={{ paddingRight:"35px" }}>
-              <div className="row">
-                <div className="card-deck">
-                  {characterList.slice(0,4)}
-                </div>
-              </div>
-              <div className="row">
-                <div className="card-deck">
-                  {characterList.slice(4,8)}
-                </div>
-              </div>
-              <div className="row">
-                <div className="card-deck">
-                  {characterList.slice(8,12)}
-                </div>
+            <div className="col-12 col-sm-9">
+              <div className="row row-cols-3 row-cols-sm-4">
+                {characterList}
               </div>
             </div>
           </div>  
