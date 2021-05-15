@@ -9,4 +9,5 @@
  
  ## Technologies
 
-<img align="middle" src="https://i.imgur.com/hoqTpFD.png" alt="HTML5" width="25%"/>&nbsp; &nbsp;<img align="middle" src="http://2ality.com/2011/10/logo-js/js.jpg" alt="JavaScript" width="10%"/><img src="http://resources.mynewsdesk.com/image/upload/c_limit,dpr_2.625,f_auto,h_700,q_auto,w_360/v6nif6xd9zisawu5sdar.jpg" align="middle" width="15%"/><img align="middle" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width="15%"/>
+<img align="middle" src="https://i.imgur.com/hoqTpFD.png" alt="HTML5" width="25%"/>&nbsp; &nbsp; <img align="middle" src="https://i.imgur.com/XwLI0e8.jpg" alt="JavaScript" title="JavaScript" width="10%"/>&nbsp; &nbsp;<img src="https://i.imgur.com/jWphwvp.png" align="middle" width="15%" alt="React" title="React"/>&nbsp; &nbsp;<img align="middle" src="https://i.imgur.com/IMAql3U.png" alt="node.js" title="Node.js" width="15%">
+
