@@ -19,4 +19,6 @@
 }
 .card > .img-container > img {
   width: 75%;
+  object-fit: contain;
+  max-height: 100%;
 }
