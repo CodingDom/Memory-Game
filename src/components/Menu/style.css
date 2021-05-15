@@ -16,12 +16,16 @@
 }
 
 #logo-background {
-  position: absolute;
-  height: 100vw;
-  width: 30vh;  
-  left: -26.5%;
-  top: 6%;
-  transform: rotate(90deg) translate(-50%, -50%);
+  display: none;
+}
+
+#logo-background-mobile {
+  position: fixed;
+  display: inline;
+  width: 100%;
+  height: 30%;  
+  left: 0;
+  top: 0;
   z-index: -1;
 }
 
@@ -33,6 +37,14 @@
   color: white;
 }
 
+#logo-text h1 {
+  font-size: 2.5em;
+}
+
+#logo-text h3 {
+  font-size: 1.75em;
+}
+
 #menu-text {  
   margin-top: 34%;
   margin-bottom: 25%;  
@@ -42,8 +54,31 @@
   color: #5a4827;
 }
 
+/* iPhone 5 landscape fix */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:landscape) {
+  .d-sm-none {
+      display: none!important;
+  }
+  
+  .col-sm-3 {
+      flex: 0 0 auto;
+      width: 25%;
+  }
 
-@media all and (min-width: 576px) {
+  .col-sm-12 {
+      flex: 0 0 auto;
+      width: 100%;
+  }
+
+  .row-cols-sm-4>* {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
+
+
+@media all and (min-width: 576px), all and (orientation: landscape) {
   #menu {
     max-width: 370px;
     position: relative;
@@ -57,13 +92,19 @@
     transform: unset;
   }
 
+  #logo-background-mobile {
+    display: none;
+  }
+
   #logo-background {
     position: relative;
+    display: inline;
     height: 100%; 
     width: 100%;
     left: 0;  
     top: 0;
     transform: unset;
+    z-index: -1;
   }
 
   #logo-text {
@@ -76,15 +117,7 @@
     text-align: center; 
     padding-top: 12%;     
     transform: unset;
-  }
-
-  #logo-text h1 {
-    font-size: 2.5em;
-  }
-
-  #logo-text h3 {
-    font-size: 1.75em;
-  }
+  }  
 
   #menu-text {
     width: 100%; 

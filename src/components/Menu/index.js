@@ -6,9 +6,10 @@ function Menu({height, logo, score, highScore, result, color, rescale}) {
     <div id="menu">
       <img id="logo" src="./assets/images/sign.png" alt="logo"/>
       <img id="logo-background" src="./assets/images/sign2.png" alt="menu"/>
+      <img id="logo-background-mobile" src="./assets/images/sign2-rotate.png" alt="menu"/>
       <div id="logo-text">
-        <h1 style={{ fontSize: "2.5em" }}>Lion King</h1>
-        <h3 style={{ fontSize: "1.75em" }}>Memory Game</h3>
+        <h1>Lion King</h1>
+        <h3>Memory Game</h3>
       </div>
       <div id="menu-text">
         <div className="row">
